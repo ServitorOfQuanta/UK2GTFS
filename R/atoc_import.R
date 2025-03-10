@@ -75,7 +75,8 @@ importFLF <- function(file) {
     sep = "",
     stringsAsFactors = FALSE,
     header = FALSE,
-    fill = TRUE
+    fill = TRUE,
+    comment.char = "/"
   )
 
   # remove end line
